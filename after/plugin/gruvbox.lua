@@ -71,9 +71,9 @@ require("gruvbox").setup({
     LineNr                          = { fg = colors.gray, bg = colors.bg },
     NonText                         = { fg = colors.bg, bg = colors.bg },
     NormalFloat                     = { bg = colors.black },
-    Pmenu                           = { fg = colors.fg, bg = colors.black },
-    PmenuSbar                       = { fg = colors.gray, bg = colors.black },
-    PmenuSel                        = { fg = colors.black, bg = colors.magenta },
+--    Pmenu                           = { fg = colors.fg, bg = colors.black },
+--  PmenuSbar                       = { fg = colors.gray, bg = colors.black },
+--    PmenuSel                        = { fg = colors.black, bg = colors.magenta },
     Search                          = { fg = colors.magenta, bg = colors.bg },
     TabLine                         = { bg = colors.black },
     TabLineFill                     = { bg = colors.black },
@@ -175,3 +175,4 @@ require("gruvbox").setup({
 })
 
 vim.cmd("colorscheme gruvbox")
+vim.cmd("set background=dark")
