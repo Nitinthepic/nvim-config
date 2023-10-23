@@ -44,3 +44,4 @@ require('lazy').setup({
 }, {})
 require'lspconfig'.pyright.setup{}
 require'lspconfig'.clangd.setup{}
+require'lspconfig'.hdl_checker.setup{}
