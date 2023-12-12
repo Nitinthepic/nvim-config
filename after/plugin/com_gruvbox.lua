@@ -71,19 +71,19 @@ require("gruvbox").setup({
     LineNr                          = { fg = colors.gray, bg = colors.bg },
     NonText                         = { fg = colors.bg, bg = colors.bg },
     NormalFloat                     = { bg = colors.black },
-    Pmenu                           = { fg = colors.fg, bg = colors.black },
-    PmenuSbar                       = { fg = colors.gray, bg = colors.black },
-    PmenuSel                        = { fg = colors.black, bg = colors.magenta },
+--    Pmenu                           = { fg = colors.fg, bg = colors.black },
+--  PmenuSbar                       = { fg = colors.gray, bg = colors.black },
+--    PmenuSel                        = { fg = colors.black, bg = colors.magenta },
     Search                          = { fg = colors.magenta, bg = colors.bg },
-    TabLine                         = { bg = colors.black },
-    TabLineFill                     = { bg = colors.black },
-    Visual                          = { bg = colors.bg1 },
-    VisualNos                       = { bg = colors.bg1 },
-    Whitespace                      = { fg = colors.bg, bg = colors.bg },
+    TabLine                         = { bg = colors.bg },
+    TabLineFill                     = { bg = colors.fg },
+    Visual                          = { bg = colors.fg1 },
+    VisualNos                       = { bg = colors.fg1 },
+    --Whitespace                      = { fg = colors.bg, bg = colors.bg },
     WinSeparator                    = { fg = colors.bg1, bg = colors.bg },
     -- different background to avoid carets in status line
-    StatusLine                      = { fg = colors.black, bg = colors.bg },
-    StatusLineNC                    = { fg = colors.black, bg = colors.black },
+    -- StatusLine                      = { fg = colors.black, bg = colors.bg },
+    -- StatusLineNC                    = { fg = colors.black, bg = colors.black },
     -- telescope (general)
     TelescopeBorder                 = { fg = colors.black, bg = colors.black },
     TelescopeNormal                 = { fg = colors.fg, bg = colors.black },
@@ -175,3 +175,4 @@ require("gruvbox").setup({
 })
 
 vim.cmd("colorscheme gruvbox")
+vim.cmd("set background=dark")

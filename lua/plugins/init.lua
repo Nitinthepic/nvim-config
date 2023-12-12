@@ -82,10 +82,6 @@ return {
       'nvim-lua/plenary.nvim',
     }
   },
-  {
-    'neoclide/coc.nvim',
-    branch = 'release'
-  },
   'nanozuki/tabby.nvim',       -- better tabline
   'echasnovski/mini.pairs',    -- auto pairs
   'echasnovski/mini.surround', -- surrounding
