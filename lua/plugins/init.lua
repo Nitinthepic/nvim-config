@@ -19,6 +19,9 @@ return {
       'williamboman/mason-lspconfig.nvim',
       'folke/neodev.nvim',
     },
+    ui = {
+      border = "rounded"
+    },
   },
   {
     -- autocompletion
@@ -81,6 +84,12 @@ return {
     dependencies = {
       'nvim-lua/plenary.nvim',
     }
+  },
+  {
+    "danymat/neogen",
+    dependencies = "nvim-treesitter/nvim-treesitter",
+    config = true,
+    version = "*"
   },
   'nanozuki/tabby.nvim',       -- better tabline
   'echasnovski/mini.pairs',    -- auto pairs

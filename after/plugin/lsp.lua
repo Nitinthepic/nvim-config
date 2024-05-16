@@ -46,6 +46,7 @@ mason_lspconfig.setup_handlers {
       settings = servers[server_name],
     }
   end,
+
 }
 
 -- nvim-cmp setup

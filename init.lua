@@ -29,6 +29,9 @@ require('lazy').setup({
     lazy = false,                -- Don't lazy load by default.
     version = false,             -- Always use the latest git commit.
   },
+  ui = {
+    border = "rounded"
+  },
   checker = { enabled = false }, -- Don't auto-check for updates.
   performance = {
     rtp = {
@@ -42,6 +45,3 @@ require('lazy').setup({
     },
   },
 }, {})
-require'lspconfig'.pyright.setup{}
-require'lspconfig'.clangd.setup{}
-require'lspconfig'.hdl_checker.setup{}
